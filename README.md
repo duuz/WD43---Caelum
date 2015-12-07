@@ -1,1 +1,3 @@
-# WD43---Caelum
+# WD43 - Caelum
+
+Curso de HTML CSS E JAVASCRIPT
