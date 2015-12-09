@@ -1,0 +1,86 @@
+        .sacola {
+            background: url(../img/sacola.png) no-repeat top right;
+            font-size: 14px;
+            padding-right: 35px;
+            text-align: right;
+            width: 140px;
+            padding-top: 8px;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        
+        .menu-opcoes {
+            font-size: 15px;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+        
+        .menu-opcoes a {
+            color: #003366;
+        }
+        
+        body {
+            color: #333333;
+            font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        }
+        
+        .menu-opcoes ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+        
+        .container {
+            margin: 0 auto;
+            width: 940px;
+        }
+        
+        header {
+            position: relative;
+        }
+        
+        .busca,
+        .menu-departamentos {
+            background-color: #dcdcdc;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-right: 10px;
+            width: 230px;
+            float: left;
+        }
+        
+        .menu-departamentos {
+            clear: left;
+            margin-top: 10px;
+            padding-bottom: 10px;
+        }
+        
+        .busca h2,
+        .busca form,
+        .menu-departamentos h2 {
+            margin: 10px;
+        }
+        
+        .menu-departamentos li {
+            background-color: white;
+            margin-bottom: 1px;
+            padding: 5px 10px;
+        }
+        
+        .menu-departamentos a {
+            color: #333333;
+            text-decoration: none;
+        }
+        
+        .busca input {
+            vertical-align: middle;
+        }
+        
+        .busca input [type=search] {
+            width: 170px;
+        }
+        
+        .destaque {
+            margin-top: 10px;
+        }
