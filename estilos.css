@@ -21,6 +21,14 @@
             color: #003366;
         }
         
+        .menu-opcoes a:hover {
+            color: #007dc6;
+        }
+        
+        .menu-opcoes a:active {
+            color: #867dc6;
+        }
+        
         body {
             color: #333333;
             font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -68,6 +76,18 @@
             padding: 5px 10px;
         }
         
+        .menu-departamentos li ul {
+            display: none;
+        }
+        
+        .menu-departamentos li:hover ul {
+            display: block;
+        }
+        
+        .menu-departamentos ul ul li {
+            background-color: #dcdcdc;
+        }
+        
         .menu-departamentos a {
             color: #333333;
             text-decoration: none;
@@ -83,4 +103,103 @@
         
         .destaque {
             margin-top: 10px;
+        }
+        
+        .painel {
+            margin: 10px 0;
+            padding: 10px;
+            width: 445px;
+        }
+        /*        Teste*/
+        
+        .painel {
+            animation: pulse 3s infinite;
+        }
+        
+        @keyframes pulse {
+            0% {
+                background-color: #001E3A;
+            }
+            100% {
+                background-color: #FF4136;
+            }
+        }
+        /*        Fim Teste*/
+        
+        .novidades {
+            float: left;
+        }
+        
+        .mais-vendidos {
+            float: right;
+        }
+        
+        .painel li {
+            display: inline-block;
+            vertical-align: top;
+            width: 140px;
+            margin: 2px;
+            padding-bottom: 10px;
+        }
+        
+        .painel a {
+            color: #333;
+            font-size: 14px;
+            text-align: center;
+            text-decoration: none;
+        }
+        
+        .painel h2 {
+            font-size: 24px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        
+        .novidades {
+            background-color: #f5dcdc;
+        }
+        
+        .mais-vendidos {
+            background-color: #dcdcf5;
+        }
+        
+        footer {
+            background-image: url(../img/fundo-rodape.png);
+            clear: both;
+            padding: 20px 0;
+        }
+        
+        .social {
+            position: absolute;
+            top: 12px;
+            right: 0;
+        }
+        
+        .social a {
+            /*            tamanho da imagem*/
+            height: 32px;
+            width: 32px;
+            display: block;
+            text-indent: -9999px;
+        }
+        
+        .social a[href*="facebook.com"] {
+            background-image: url(../img/facebook.png);
+        }
+        
+        .social a[href*="twitter.com"] {
+            background-image: url(../img/twitter.png);
+        }
+        
+        .social a[href*="plus.google.com"] {
+            background-image: url(../img/googleplus.png);
+        }
+        
+        .social li {
+            float: left;
+            margin-left: 25px;
+        }
+        
+        footer .container {
+            position: relative;
         }
