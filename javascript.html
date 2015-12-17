@@ -3,13 +3,15 @@
 
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/bootstrap-flatly.css">
 	<title>TESTE</title>
 </head>
 
 <body>
-	<h1>Mirror</h1>
-	<button>Clique</button>
-	<script>!alert("Oi!");</script>
+	<h1 class="jumbotron"></h1>
+	<!--	<button>Clique</button>-->
+	<!--	<script>!alert("Oi!");</script>-->
+	<!--
 	<script>
 		var botao = document.querySelector("button");
 		botao.onclick = function () {
@@ -18,15 +20,28 @@
 				titulo.style.background = "red";
 		}
 	</script>
-	<!-- Exercicio 11.7
+-->
+	<!--
 <script>
 	for (i=1; i < 10; i+=2) {
 		var titulo = document.querySelector('h1');
-		titulo.textContent = titulo.textContent+" "+i;
+		titulo.textContent += " "+i;
 		console.log(i);
 	};
 	</script>
 -->
+	<script>
+		var soma = 0;
+		for (i = 0; i < 101; i++) {
+			var titulo = document.querySelector('h1');
+
+			soma += i;
+			console.log(soma)
+
+
+		};
+		titulo.textContent = soma;
+	</script>
 </body>
 
 </html>
