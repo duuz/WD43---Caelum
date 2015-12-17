@@ -72,10 +72,20 @@
 								<?= $_POST['nome']?>
 							</dd>
 							<dt>Valor</dt>
-							<dd>
+							<dd id="valor">
 								<?= $_POST['valor']?>
 							</dd>
 						</dl>
+						<div class="form-group">
+							<label for="qt">Quantidade</label>
+							<input type="number" id="qt" class="form-control" min="0" max="99" value="1">
+						</div>
+						<div class="form-group">
+							<label for="total">Total</label>
+							<output for="qt" id="total" class="form-control">
+								<?= $_POST["valor"]?>
+							</output>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -127,6 +137,9 @@
 	</div>
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.js"></script>
+	<script src="js/converteMoeda.js"></script>
+	<script src="js/testaConversao.js"></script>
+	<script src="js/total.js"></script>
 </body>
 
 </html>
