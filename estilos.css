@@ -195,6 +195,18 @@
         	transform: scale(1.2) rotate(5deg);
         }
         
+        .painel button {
+        	display: none;
+        }
+        
+        .painel-compacto li:nth-child(n+7) {
+        	display: none;
+        }
+        
+        .painel-compacto button {
+        	display: block;
+        }
+        
         .novidades {
         	background-color: #f5dcdc;
         	background: linear-gradiente(#f5dcdc, #bebef4);
